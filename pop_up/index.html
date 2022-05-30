@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pop-up</title>
+    <link rel="stylesheet" href="styles.css">
+    <script defer src="script.js"></script>
+ 
+ </head>
+<body>
+    
+            <!--Points to id="modal", used as a SELECTOR-->
+            <!--We don't want to mix classes used in CSS and variables used in JS => use "data-..."-->
+    <button data-modal-target="#modal"> Open Modal </button>
+    <div class="modal" id="modal">
+        <div class="modal-header">
+            <div class="title">Example Modal</div>
+            <button data-close-button class="close-button">&times;</button>
+        </div>
+        <div class="modal-body">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+            Assumenda cum laboriosam voluptatum distinctio 
+            temporibus ducimus tenetur culpa vero, maiores ullam earum 
+            doloremque quis eos alias quo ex vel id aspernatur tempora 
+            inventore quos nisi aut reiciendis veritatis. Quas cumque
+             fugiat sit debitis deleniti iusto ipsa facere unde culpa 
+             animi est blanditiis, harum ducimus temporibus aliquam nam 
+             eligendi amet. Corporis, quam necessitatibus suscipit
+              esse, dolor accusantium iste nobis molestias voluptatum
+               enim ipsa obcaecati rerum sapiente optio atque
+                recusandae animi. Quaerat, obcaecati!
+        </div>
+    </div>
+
+    <div id="overlay"></div>
+</body>
+</html>

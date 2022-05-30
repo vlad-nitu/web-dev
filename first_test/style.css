@@ -1,0 +1,107 @@
+body{ 
+    background-color: aqua;
+    position: relative; 
+  
+}
+
+.main_div{ 
+    color: red;
+    font-size: 2em;
+    font-family: 'Courier New', Courier, monospace;
+}
+.main_div:hover { 
+    color: gold;
+}
+
+
+ol{ 
+    color: grey;
+    font-size: 0.5em;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+#rectangle{
+
+    position: relative;
+    top: 10px;
+    left: 20px;
+    background-color: purple;
+    height: 50px;
+    width: 75px;
+
+}
+
+#square { 
+    position: relative; 
+    top: 10px;
+    left: 100px;
+    background-color: teal;
+    height: 50px;
+    width: 50px;
+}
+
+#triangle{  
+    position: relative; 
+    top: 10px;
+    left: 150px;
+
+    width: 0px;
+    height: 0;
+
+    border-bottom: 50px solid goldenrod;
+    border-left: 25px solid transparent;
+    border-right: 25px solid transparent;
+}
+
+#circle{ 
+    position: relative; 
+    top: 10px;
+    left: 200px;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    background: blue;
+    
+}
+
+#oval{ 
+    position: relative; 
+    top: 10px;
+    left: 250px;
+    height: 50px;
+    width: 75px;
+    border-radius: 50%;
+    background: plum;
+
+}
+
+div{ 
+    position: relative; 
+    margin-bottom: 25px;
+    
+}
+
+
+a{
+    position: absolute;
+    text-decoration: overline;
+ }
+ 
+
+ a:hover {
+    background: tomato
+ }
+ a:visited{ 
+     color: red;
+
+ }
+
+ h1:hover{
+    color: whitesmoke;
+ }
+ b:hover {
+     color:thistle;
+     text-decoration: underline;
+     text-decoration-color: yellowgreen;
+     content: "TATA";
+ }
